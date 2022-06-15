@@ -19,4 +19,4 @@ ro.sys.fw.dex2oat_thread_count=8
 ro.support_hide_display_cutout=true
 
 # Graphics
-debug.hwui.renderer=skiavk
+debug.hwui.renderer=opengl
