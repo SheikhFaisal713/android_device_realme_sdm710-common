@@ -112,3 +112,41 @@ persist.vendor.ssr.restart_level=ALL_ENABLE
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# SystemUI
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
+
+# Scrolling Responsiveness
+persist.cust.tel.eons=1
+windowsmgr.max_events_per_sec=90
+
+# FPS Booster
+persist.sys.NV_PROFVER=15
+persist.sys.NV_FPSLIMIT=90
+persist.sys.NV_STEREOSEP=20
+persist.sys.NV_STEREOCTRL=0
+persist.sys.NV_POWERMODE=1
+persist.sys.NV_STEREOSEPCHG=0
+
+# FPS Optimization
+debug.gr.swapinterval=1
+debug.egl.swapinterval=-90
+persist.sys.egl.swapinterval=1
+vendor.debug.gr.swapinterval=1
+vendor.debug.egl.swapinterval=1
+persist.sys.debug.gr.swapinterval=1
+
+# Fps Lock
+cpu.fps=60
+gpu.fps=60
+boot.fps=30
+force.fps=90
+system.fps=90
+ro.fps_enable=1
+shutdown.fps=30
+stabilizer.fps=True
+ro.fps.capsmin=90
+ro.fps.capsmax=90
+dont.lower.fps=True
+stable.fps.enable=True

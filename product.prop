@@ -20,3 +20,7 @@ ro.support_hide_display_cutout=true
 
 # Graphics
 debug.hwui.renderer=opengl
+
+# Disables Locating
+ro.com.google.locationfeatures=0
+ro.com.google.networklocation=0
